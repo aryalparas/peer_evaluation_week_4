@@ -72,5 +72,5 @@ for(i in 1:subjectLen) {
      } 
  } 
  head(result) 
- write.table(result, "data_with_means.txt") # write out the 2nd dataset 
+ write.table(result, "data_with_means_tidy_data.txt",row.names=FALSE) # write out the 2nd dataset 
  
